@@ -1,13 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 #define max 5
 
-typedef struct{
+typedef struct
+{
     int chave;
     char nome[50];
-}TipoItem;
+} TipoItem;
 
-typedef struct{
+typedef struct
+{
     TipoItem itens[max];
     int ultimo;
-}ListaLSE;
-
+} ListaLSE;
